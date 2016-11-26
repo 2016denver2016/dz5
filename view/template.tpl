@@ -24,7 +24,7 @@
 <body>
 <div class="wrapper">
   <header>
-						
+		<!-- <div></div> -->				
 		<div class="header">
 		<div class="head_banner">
 							<a  href="http://posadiderevo.rozetka.com.ua"><img class="bann" src="./img/1817.jpg"alt="Дерево"> </a>
