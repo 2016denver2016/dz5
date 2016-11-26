@@ -3,7 +3,7 @@
 	
 </head>
 <body>
-//new changes
+
 <div class="wrapper">
 
 	<div class="about_us">
@@ -17,7 +17,7 @@
 					echo"<br>";
 					}?> 
 						
-/////////
+/////////new newnew
 <?
 
 					foreach ($goods as $key => $good) {
