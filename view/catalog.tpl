@@ -17,7 +17,7 @@
 					echo"<br>";
 					}?> 
 						
-
+/////////
 <?
 
 					foreach ($goods as $key => $good) {
