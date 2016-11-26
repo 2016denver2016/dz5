@@ -1,0 +1,153 @@
+body {
+	min-width: 1200px;
+}
+
+/* =Containers
+--------------------------------------------------------------------------------*/
+.layout {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/* =Grid >> Global
+--------------------------------------------------------------------------------*/
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+	display: inline;
+	float: left;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.push_1, .pull_1,
+.push_2, .pull_2,
+.push_3, .pull_3,
+.push_4, .pull_4,
+.push_5, .pull_5,
+.push_6, .pull_6,
+.push_7, .pull_7,
+.push_8, .pull_8,
+.push_9, .pull_9,
+.push_10, .pull_10,
+.push_11, .pull_11 {
+	position: relative;
+}
+
+/* =Grid >> Children (Alpha ~ First, Omega ~ Last)
+--------------------------------------------------------------------------------*/
+.alpha {margin-left: 0;}
+.omega {margin-right: 0;}
+
+/* =Grid >> 12 Columns
+--------------------------------------------------------------------------------*/
+.wrapper .grid_1 {width: 70px;}
+.wrapper .grid_2 {width: 170px;}
+.wrapper .grid_3 {width: 270px;}
+.wrapper .grid_4 {width: 370px;}
+.wrapper .grid_5 {width: 470px;}
+.wrapper .grid_6 {width: 570px;}
+.wrapper .grid_7 {width: 670px;}
+.wrapper .grid_8 {width: 770px;}
+.wrapper .grid_9 {width: 870px;}
+.wrapper .grid_10 {width: 970px;}
+.wrapper .grid_11 {width: 1070px;}
+.wrapper .grid_12 {width: 1170px;}
+
+/* =Prefix Extra Space >> 12 Columns
+--------------------------------------------------------------------------------*/
+.wrapper .prefix_1 {padding-left: 100px;}
+.wrapper .prefix_2 {padding-left: 200px;}
+.wrapper .prefix_3 {padding-left: 300px;}
+.wrapper .prefix_4 {padding-left: 400px;}
+.wrapper .prefix_5 {padding-left: 500px;}
+.wrapper .prefix_6 {padding-left: 600px;}
+.wrapper .prefix_7 {padding-left: 700px;}
+.wrapper .prefix_8 {padding-left: 800px;}
+.wrapper .prefix_9 {padding-left: 900px;}
+.wrapper .prefix_10 {padding-left: 1000px;}
+.wrapper .prefix_11 {padding-left: 1100px;}
+
+/* =Suffix Extra Space >> 12 Columns
+--------------------------------------------------------------------------------*/
+.wrapper .suffix_1 {padding-right: 100px;}
+.wrapper .suffix_2 {padding-right: 200px;}
+.wrapper .suffix_3 {padding-right: 300px;}
+.wrapper .suffix_4 {padding-right: 400px;}
+.wrapper .suffix_5 {padding-right: 500px;}
+.wrapper .suffix_6 {padding-right: 600px;}
+.wrapper .suffix_7 {padding-right: 700px;}
+.wrapper .suffix_8 {padding-right: 800px;}
+.wrapper .suffix_9 {padding-right: 900px;}
+.wrapper .suffix_10 {padding-right: 1000px;}
+.wrapper .suffix_11 {padding-right: 1100px;}
+
+/* `Push Space >> 12 Columns
+--------------------------------------------------------------------------------*/
+.wrapper .push_1 {left: 100px;}
+.wrapper .push_2 {left: 200px;}
+.wrapper .push_3 {left: 300px;}
+.wrapper .push_4 {left: 400px;}
+.wrapper .push_5 {left: 500px;}
+.wrapper .push_6 {left: 600px;}
+.wrapper .push_7 {left: 700px;}
+.wrapper .push_8 {left: 800px;}
+.wrapper .push_9 {left: 900px;}
+.wrapper .push_10 {left: 1000px;}
+.wrapper .push_11 {left: 1100px;}
+
+/* `Pull Space >> 12 Columns
+--------------------------------------------------------------------------------*/
+.wrapper .pull_1 {left: -100px;}
+.wrapper .pull_2 {left: -200px;}
+.wrapper .pull_3 {left: -300px;}
+.wrapper .pull_4 {left: -400px;}
+.wrapper .pull_5 {left: -500px;}
+.wrapper .pull_6 {left: -600px;}
+.wrapper .pull_7 {left: -700px;}
+.wrapper .pull_8 {left: -800px;}
+.wrapper .pull_9 {left: -900px;}
+.wrapper .pull_10 {left: -1000px;}
+.wrapper .pull_11 {left: -1100px;}
+
+/* `Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+/* http://sonspring.com/journal/clearing-floats */
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+/* http://www.yuiblog.com/blog/2010/09/27/clearfix-reloaded-overflowhidden-demystified */
+.clearfix:before,
+.clearfix:after {
+	content: "\0020";
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+.clearfix:after {
+	clear: both;
+}
+/*
+The following zoom:1 rule is specifically for IE6 + IE7.
+Move to separate stylesheet if invalid CSS is a problem.
+*/
+.clearfix {
+	zoom: 1;
+}

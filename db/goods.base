@@ -1,0 +1,148 @@
+<?
+	$goods = [
+				[
+					"mediaLinkVideo"=> "#video",
+					"mediaLinkDemo" =>false,
+					"sticker"=>["superPrice","Суперцена"],
+					"imgGood"=>["#lenovo1","images/product/lenovo1.jpg","altLenovo","Lenovo1"],
+					"colorsGood"=>[
+									["white","#white"],
+									["black","#black"],
+									["red","#red"]
+							   ],
+					"nameGood"=>[	
+						        "nameLink"=>"#lenovo1",
+								"name"=>"Lenovo IdeaPad 100-14 (80MH001XUA) Суперцена!"
+							 ],
+					"endingGood"=>true,
+					"oldPrice"=>3500,
+					"price"=>6999,
+					"raiting"=>4,
+					"reviews"=>["#reviews",52],
+					"idGood"=>"1",
+					"features"=>["12073.jpg", "2635.png", "2675.png"],
+					"description"=>"Экран 14 (1366x768) HD LED, глянцевый / Intel Celeron N2840 (2.16 ГГц) / RAM 2 ГБ / HDD 500 ГБ / Intel HD Graphics / без ОД / LAN / Wi-Fi / веб-камера / DOS / 1.9 кг / черный"
+				],
+				[
+					"mediaLinkVideo"=> false,
+					"mediaLinkDemo" =>"#demo",
+					"sticker"=>["topSales","Топ продаж"],
+					"imgGood"=>["#lenovo2","images/product/lenovo2.jpg","altLenovo","Lenovo2"],
+					"colorsGood"=>[
+									["white","#white"],
+									["black","#black"],
+									["blue","#blue"],
+									["red","#red"]
+							   ],
+					"nameGood"=>[	
+						        "nameLink"=>"#lenovo2",
+								"name"=>"Lenovo G50-45 (80E301UKUA) Суперцена!"
+							 ],
+					"endingGood"=>false,
+					"oldPrice"=>3500,
+					"price"=>4560,
+					"raiting"=>5,
+					"reviews"=>["#reviews",58],
+					"idGood"=>"2",
+					"features"=>["12073.jpg", "2635.png", "2675.png", "1516.png"],
+					"description"=>"Экран 15.6 (1366x768) HD LED, матовый / AMD Dual-Core E1-6015 (1.4 ГГц) / RAM 2 ГБ / HDD 500 ГБ / AMD Radeon R2 / без ОД / LAN / Wi-Fi / Bluetooth / веб-камера / Linux / 2.15 кг / черный"
+				],
+				[
+					"mediaLinkVideo"=> "#video",
+					"mediaLinkDemo" =>"#demo",
+					"sticker"=>["stock","Акция"],
+					"imgGood"=>["#lenovo3","images/product/lenovo3.jpg","altLenovo","Lenovo3"],
+					"colorsGood"=>[
+									["white","#white"],
+									["red","#red"]
+							   ],
+					"nameGood"=>[	
+						        "nameLink"=>"#lenovo3",
+								"name"=>"Lenovo Z50-70 (59430340) Суперцена!"
+							 ],
+					"endingGood"=>false,
+					"oldPrice"=>3900,
+					"price"=>9699,
+					"raiting"=>3,
+					"reviews"=>["#reviews",52],
+					"idGood"=>"3",
+					"features"=>["12073.jpg", "1516.png", "2655.png"],
+					"description"=>"Экран 15.6 (1366x768) HD WLED, глянцевый / Intel Celeron N2830 (2.16 ГГц) / RAM 2 ГБ / HDD 500 ГБ / Intel HD Graphics / Без ОД / Wi-Fi / Bluetooth 4.0 / веб-камера / Windows 8.1 / 2.14 кг / черный"
+				],
+				[
+					"mediaLinkVideo"=> "#video",
+					"mediaLinkDemo" =>false,
+					"sticker"=>["superPrice","Суперцена"],
+					"imgGood"=>["#lenovo1","images/product/lenovo1.jpg","altLenovo","Lenovo1"],
+					"colorsGood"=>[
+									["white","#white"],
+									["black","#black"],
+									["red","#red"]
+							   ],
+					"nameGood"=>[	
+						        "nameLink"=>"#lenovo1",
+								"name"=>"Lenovo IdeaPad 100-14 (80MH001XUA) Суперцена!"
+							 ],
+					"endingGood"=>true,
+					"oldPrice"=>3500,
+					"price"=>6999,
+					"raiting"=>4,
+					"reviews"=>["#reviews",52],
+					"idGood"=>"1",
+					"features"=>["12073.jpg", "2635.png", "2675.png"],
+					"description"=>"Экран 14 (1366x768) HD LED, глянцевый / Intel Celeron N2840 (2.16 ГГц) / RAM 2 ГБ / HDD 500 ГБ / Intel HD Graphics / без ОД / LAN / Wi-Fi / веб-камера / DOS / 1.9 кг / черный"
+				],
+				[
+					"mediaLinkVideo"=> false,
+					"mediaLinkDemo" =>"#demo",
+					"sticker"=>["topSales","Топ продаж"],
+					"imgGood"=>["#lenovo2","images/product/lenovo2.jpg","altLenovo","Lenovo2"],
+					"colorsGood"=>[
+									["white","#white"],
+									["black","#black"],
+									["blue","#blue"],
+									["red","#red"]
+							   ],
+					"nameGood"=>[	
+						        "nameLink"=>"#lenovo2",
+								"name"=>"Lenovo G50-45 (80E301UKUA) Суперцена!"
+							 ],
+					"endingGood"=>true,
+					"oldPrice"=>3500,
+					"price"=>4560,
+					"raiting"=>5,
+					"reviews"=>["#reviews",58],
+					"idGood"=>"2",
+					"features"=>["12073.jpg", "2635.png", "2675.png", "1516.png"],
+					"description"=>"Экран 15.6 (1366x768) HD LED, матовый / AMD Dual-Core E1-6015 (1.4 ГГц) / RAM 2 ГБ / HDD 500 ГБ / AMD Radeon R2 / без ОД / LAN / Wi-Fi / Bluetooth / веб-камера / Linux / 2.15 кг / черный"
+				],
+				[
+					"mediaLinkVideo"=> "#video",
+					"mediaLinkDemo" =>"#demo",
+					"sticker"=>["stock","Акция"],
+					"imgGood"=>["#lenovo3","images/product/lenovo3.jpg","altLenovo","Lenovo3"],
+					"colorsGood"=>[
+									["white","#white"],
+									["red","#red"]
+							   ],
+					"nameGood"=>[	
+						        "nameLink"=>"#lenovo3",
+								"name"=>"Lenovo Z50-70 (59430340) Суперцена!"
+							 ],
+					"endingGood"=>false,
+					"oldPrice"=>3900,
+					"price"=>9699,
+					"raiting"=>3,
+					"reviews"=>["#reviews",52],
+					"idGood"=>"3",
+					"features"=>["12073.jpg", "1516.png", "2655.png"],
+					"description"=>"Экран 15.6 (1366x768) HD WLED, глянцевый / Intel Celeron N2830 (2.16 ГГц) / RAM 2 ГБ / HDD 500 ГБ / Intel HD Graphics / Без ОД / Wi-Fi / Bluetooth 4.0 / веб-камера / Windows 8.1 / 2.14 кг / черный"
+				]
+			
+			];
+
+
+
+				
+
+?>
