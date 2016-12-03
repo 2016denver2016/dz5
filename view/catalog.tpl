@@ -18,6 +18,7 @@
 					}?> 
 						
 /////////new newnew
+<!--sdzfzjsdfzsdfzsdfzsdfszdfsdfsdfsdfdf-->
 <?
 
 					foreach ($goods as $key => $good) {
